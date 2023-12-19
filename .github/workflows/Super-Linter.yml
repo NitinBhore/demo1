@@ -4,7 +4,7 @@ on: push
 
 jobs: 
   python-linting-code:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps: 
     - name: Super-Linter
